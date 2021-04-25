@@ -14,7 +14,16 @@ export default props =>
                 <i className="fa fa-home"></i> Início
             </a>
             <a href="#/users">
-                <i className="fa fa-users"></i> Usuários
+                <i className="fa fa-users"></i> Clientes
+            </a>
+            <a href="#/estoque">
+                <i className="fa fa-edit"></i> Estoque
+            </a>
+            <a href="#/fornecedor">
+                <i className="fa fa-truck"></i> Fornecedores
+            </a>
+            <a href="#/financa">
+                <i className="fa fa-laptop"></i> Finanças
             </a>
         </nav>
     </aside>

@@ -1,19 +1,44 @@
 {
   "users": [
     {
-      "id": 2,
+      "id": 1,
       "name": "Maria Julia da Silva",
       "email": "mjds@empresa.com"
     },
     {
-      "name": "Joao",
-      "email": "jao@gmail.com",
+      "name": "Stéphanie Zambujal Fiúza",
+      "email": "zambujal-fiúza@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Kael Pardo Brásio",
+      "email": "kaelpardo980@hotmail.com",
       "id": 3
     },
     {
-      "name": "Pedro",
-      "email": "pedr-fre@hotmail.com",
+      "name": "Perla Barreiros Fraga",
+      "email": "perlafraga@serasa.com",
       "id": 4
+    },
+    {
+      "name": "Sancho Vilar Trigueiro",
+      "email": "vilar87952@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "Breno Varela Vilarinho",
+      "email": "breno.varela@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "Yassna Grande Madureira",
+      "email": "yassnagrande.madu@yahoo.com",
+      "id": 7
+    },
+    {
+      "name": "Hilário Canadas Paixão",
+      "email": "hilario534@hotmail.com",
+      "id": 8
     }
   ]
 }

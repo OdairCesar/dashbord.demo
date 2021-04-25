@@ -4,7 +4,7 @@ import Main from '../template/Main'
 const headerProps = {
     icon: 'home',
     title: 'Inicio',
-    subtitle: 'Segundo Projeto do capítulo de React.'
+    subtitle: 'Controle da sua aplicação'
 }
 
 export default props =>
