@@ -4,6 +4,8 @@ header.header {
     overflow: hidden;
     white-space: nowrap;
     box-shadow: var(--shadow);
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 header.header h1 {
@@ -13,5 +15,10 @@ header.header h1 {
     header.header{ 
         justify-content: center;
         align-items: center;
+    }
+}
+@media(max-width: 768px){
+    header.header{ 
+        margin: 0px;
     }
 }
