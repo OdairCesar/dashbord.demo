@@ -7,11 +7,9 @@ aside.menu-area {
 .mini-menu{
     background-color: #07a7e3;
     opacity: 0.8;
-    border-radius: 0px 0px 35px 35px;
 }
 .mini-menu a{
     margin-left: 15px;
-    font-weight: bold;
 }
 .menu a {
     background: linear-gradient(135deg, #07a7e3 0%, #32dac3 100%);

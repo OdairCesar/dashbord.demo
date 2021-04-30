@@ -106,7 +106,6 @@
     {
       "id": 1,
       "nome": "Heitor Benedito de Paula",
-      "senha": "15kiu19",
       "funcao": "Repocitor",
       "email": "heitorbeneditodepaula__heitorbeneditodepaula@marketingvale.com.br",
       "data_contrat": "2019-11-08",
@@ -127,7 +126,6 @@
     {
       "id": 2,
       "nome": "César Tiago Calebe Rodrigues",
-      "senha": "KFdMEIc4YH",
       "funcao": "Caixa",
       "email": "cesartiagocaleberodrigues__cesartiagocaleberodrigues@davimil.com.br",
       "data_contrat": "2019-11-08",
@@ -148,7 +146,6 @@
     {
       "id": 3,
       "nome": "Bruno Kaique Tiago Brito",
-      "senha": "u3NknNt9Q9",
       "funcao": "Vendedor",
       "email": "brunokaiquetiagobrito__brunokaiquetiagobrito@onvale.com",
       "data_contrat": "2019-11-08",
@@ -219,7 +216,7 @@
       "departamento": "Acessorios Cães",
       "valor": 6.99,
       "ean": 2000021262157,
-      "qtd_estoque": 10,
+      "qtd_estoque": 12,
       "id_imagens_produto": "1,5,8",
       "id_fornecedor": 1
     },

@@ -40,7 +40,7 @@ export default class Produto extends Component {
     }
     adicionarEstoque(produto){
         this.state.list.forEach(element => {
-            if (element == produto){
+            if (element === produto){
                 element.qtd_estoque = ++element.qtd_estoque
                 const metodo = element.id ? 'put': 'post'
                 const url = element.id ? `${baseUrl}/${element.id}` : baseUrl
