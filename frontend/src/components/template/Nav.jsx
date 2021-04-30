@@ -13,12 +13,26 @@ export default props =>
             <a href="#/">
                 <i className="fa fa-home"></i> Início
             </a>
-            <a href="#/users">
+            <a href="#/cliente">
                 <i className="fa fa-users"></i> Clientes
             </a>
-            <a href="#/estoque">
-                <i className="fa fa-edit"></i> Estoque
+            <a href="#/">
+                <i className="fa fa-users"></i> Colaboradores
             </a>
+            <a href="#/produto" >
+                <i className="fa fa-edit"></i> Produtos
+            </a>
+            <div id='menu' className="mini-menu">
+                <a href="#/">
+                    <i></i> Recebimentos
+                </a>
+                <a href="#/">
+                    <i></i> Estoque
+                </a>
+                <a href="#/">
+                    <i></i> Vendas
+                </a>
+            </div>
             <a href="#/fornecedor">
                 <i className="fa fa-truck"></i> Fornecedores
             </a>
