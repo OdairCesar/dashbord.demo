@@ -5,7 +5,7 @@
       "name": "Maria Julia da Silva",
       "email": "mjds@empresa.com",
       "endereco": "Rua Vinte e Oito 591",
-      "bairro":"Núcleo Habitacional Fortunato Rocha Lima",
+      "bairro": "Núcleo Habitacional Fortunato Rocha Lima",
       "cep": 17066764,
       "cidade": "Bauru",
       "estado": "SP",
@@ -22,14 +22,14 @@
       "name": "Stéphanie Zambujal Fiúza",
       "email": "zambujal-fiúza@gmail.com",
       "endereco": "Rua Engenheiro Saint Martin 543",
-      "bairro":"Centro",
+      "bairro": "Centro",
       "cep": 17010150,
       "cidade": "Bauru",
       "estado": "SP",
       "telefone": 1428020486,
       "celular": 14988270605,
       "sexo": "Feminino",
-      "data_nasc":"1982-09-21",
+      "data_nasc": "1982-09-21",
       "cpf": 92683744803,
       "rg": 146919968,
       "id_cartao": 2
@@ -38,8 +38,8 @@
       "id": 3,
       "name": "Kael Pardo Brásio",
       "email": "kaelpardo980@hotmail.com",
-      "endereco":"Rua Piratininga 422",
-      "bairro":"Vila Industrial",
+      "endereco": "Rua Piratininga 422",
+      "bairro": "Vila Industrial",
       "cep": 17055290,
       "cidade": "Bauru",
       "estado": "SP",
@@ -167,7 +167,7 @@
       "contratado_por": 1
     }
   ],
-  "administrador":[
+  "administrador": [
     {
       "id": 1,
       "nome": "Fernanda Barbie",
@@ -188,7 +188,7 @@
       "contratado_por": 1
     }
   ],
-  "cartao":[
+  "cartao": [
     {
       "id": 1,
       "selo": "MaterCard",
@@ -211,7 +211,7 @@
       "cod_seguranca": 559
     }
   ],
-  "produto":[
+  "produto": [
     {
       "id": 1,
       "nome": "Colheira P/Cães",
@@ -219,7 +219,7 @@
       "departamento": "Acessorios Cães",
       "valor": 6.99,
       "ean": 2000021262157,
-      "qtd_estoque": 8,
+      "qtd_estoque": 10,
       "id_imagens_produto": "1,5,8",
       "id_fornecedor": 1
     },
@@ -228,9 +228,9 @@
       "nome": "Chemital Plus para Cães com 4 comp",
       "descricao": "O Chemital Plus para Cães com 4 comprimidos da Chemitec é um anti-helmíntico de amplo espectro para cães e combate com eficácia formas adultas e larvárias de cestóides, ancilostomídeos, ascarídeos e tricurídeos que infestam os cães. /n Além de excelente atuação, uma margem de segurança ampla que permite sua administração mesmo para fêmeas prenhas em qualquer época da gestação. /n Chemital Plus combate a Ancylostoma brasiliense, Ancylostoma caninum, Dipylidium caninum, Echinococcus granulosus, Echinococcus multilocularis, Joyeuxiella pasqualei, Mesocestodes sp, Taenia hydatigena, Taenia multiceps, Taenia pisiformis, Taenia ovis, Taenia taeniaeformis, Toxocara canis, Toxascaris leonina, Trichuris vulpi, Uncinaria stenocephala",
       "departamento": "Vermifugo",
-      "valor": 15.50,
+      "valor": 15.5,
       "ean": 7898096853012,
-      "qtd_estoque": 5,
+      "qtd_estoque": 8,
       "id_fornecedor": 2
     },
     {
@@ -238,16 +238,16 @@
       "nome": "Dog Chow Cães adultos raças pequenas 3 Kg",
       "descricao": "A Ração Dog Chow Raças Pequenas Carne e Arroz a qualidade de vida do seu cão está relacionada à qualidade da sua digestão. /n Contém Ômega 3 e 6 para pele saudável e pelos brilhantes, prebiótico e fibras naturais que auxiliam em uma digestão saudável para seu cão adulto. Digestão Superior ajuda em fezes firmes com odor reduzido. /n Composição: /n Milho integral moído*, quirera de arroz, farinha de carne e ossos de bovinos, farinha de subprodutos de frango, farelo de soja*, farelo de glúten de milho*, gordura animal estabilizada, farinha de peixe, fosfato bicálcico, cloreto de potássio, cloreto de sódio (sal comum), carbonato de cálcio, parede celular de levedura (mananoligossacarídeos), zeolita (0,5%), hidrolisado de fígado de ave e suíno, L-lisina, DL-metionina, vitaminas (A, D3, E, B12, mononitrato de tiamina, suplemento de riboflavina, cloridrato de piridoxina, niacina, pantotenato de cálcio, ácido fólico, cloreto de colina), minerais (sulfato de zinco, proteinato de zinco, sulfato ferroso, sulfato de manganês, proteinato de manganês, sulfato de cobre, proteinato de cobre, iodato de cálcio, selenito de sódio), antioxidante BHT.",
       "departamento": "Ração de Cães",
-      "valor": 49.90,
+      "valor": 49.9,
       "ean": 7891000033012,
-      "qtd_estoque": 10,
+      "qtd_estoque": 12,
       "id_fornecedor": 3
     }
   ],
-  "itens_compra":[],
-  "compra":[],
-  "venda":[],
-  "itens_recebimento":[],
-  "recebimento":[],
-  "estoque":[]
+  "itens_compra": [],
+  "compra": [],
+  "venda": [],
+  "itens_recebimento": [],
+  "recebimento": [],
+  "estoque": []
 }
