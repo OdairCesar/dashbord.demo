@@ -1,44 +1,253 @@
 {
-  "users": [
+  "cliente": [
     {
       "id": 1,
       "name": "Maria Julia da Silva",
-      "email": "mjds@empresa.com"
+      "email": "mjds@empresa.com",
+      "endereco": "Rua Vinte e Oito 591",
+      "bairro":"Núcleo Habitacional Fortunato Rocha Lima",
+      "cep": 17066764,
+      "cidade": "Bauru",
+      "estado": "SP",
+      "telefone": 1428925311,
+      "celular": 14999811503,
+      "sexo": "Feminino",
+      "data_nasc": "1944-11-15",
+      "cpf": 11255762861,
+      "rg": 323051091,
+      "id_cartao": 1
     },
     {
+      "id": 2,
       "name": "Stéphanie Zambujal Fiúza",
       "email": "zambujal-fiúza@gmail.com",
-      "id": 2
+      "endereco": "Rua Engenheiro Saint Martin 543",
+      "bairro":"Centro",
+      "cep": 17010150,
+      "cidade": "Bauru",
+      "estado": "SP",
+      "telefone": 1428020486,
+      "celular": 14988270605,
+      "sexo": "Feminino",
+      "data_nasc":"1982-09-21",
+      "cpf": 92683744803,
+      "rg": 146919968,
+      "id_cartao": 2
     },
     {
+      "id": 3,
       "name": "Kael Pardo Brásio",
       "email": "kaelpardo980@hotmail.com",
-      "id": 3
-    },
-    {
-      "name": "Perla Barreiros Fraga",
-      "email": "perlafraga@serasa.com",
-      "id": 4
-    },
-    {
-      "name": "Sancho Vilar Trigueiro",
-      "email": "vilar87952@gmail.com",
-      "id": 5
-    },
-    {
-      "name": "Breno Varela Vilarinho",
-      "email": "breno.varela@gmail.com",
-      "id": 6
-    },
-    {
-      "name": "Yassna Grande Madureira",
-      "email": "yassnagrande.madu@yahoo.com",
-      "id": 7
-    },
-    {
-      "name": "Hilário Canadas Paixão",
-      "email": "hilario534@hotmail.com",
-      "id": 8
+      "endereco":"Rua Piratininga 422",
+      "bairro":"Vila Industrial",
+      "cep": 17055290,
+      "cidade": "Bauru",
+      "estado": "SP",
+      "telefone": 1427158736,
+      "celular": 14987463992,
+      "sexo": "Masculino",
+      "data_nasc": "1970-04-05",
+      "cpf": 29557627840,
+      "rg": 167275446,
+      "id_cartao": 3
     }
-  ]
+  ],
+  "fornecedor": [
+    {
+      "id": 1,
+      "racao_social": "Produtos Petzin",
+      "ramo": "Acessorios Pet",
+      "cnpj": 32242475000180,
+      "email": "contato@produtospetzin.com",
+      "endereco": "Rua Macário Rosilho 3-69",
+      "bairro": "Parque Nova Almeida",
+      "cep": 17512601,
+      "cidade": "Marília",
+      "estado": "SP",
+      "telefone": 1437512601,
+      "celular": 14946124420,
+      "temp_medio_entrega": "0000-01-15 13:15:35.589",
+      "adicionado_por": 1
+    },
+    {
+      "id": 2,
+      "racao_social": "Chemitec Agro-Veterinario",
+      "ramo": "Remedios Veterinarios",
+      "cnpj": 1299649000380,
+      "email": "contato@chemitec.com.br",
+      "endereco": "Rua Palmares 51",
+      "bairro": "Ipiranga",
+      "cep": 4210040,
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "telefone": 1122747022,
+      "celular": 11918124330,
+      "temp_medio_entrega": "0000-00-13 20:08:38.589",
+      "adicionado_por": 1
+    },
+    {
+      "id": 3,
+      "racao_social": "Purina",
+      "ramo": "Alimentos Cães e Gatos",
+      "cnpj": 32242475000180,
+      "email": "falecom@nestle.com.br",
+      "endereco": "Rua Princesa Isabel 360",
+      "bairro": "Brooklin Paulista",
+      "cep": 4601970,
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "telefone": 8007701180,
+      "celular": 14981263480,
+      "temp_medio_entrega": "0000-00-21 18:19:01.571",
+      "adicionado_por": 1
+    }
+  ],
+  "colaborador": [
+    {
+      "id": 1,
+      "nome": "Heitor Benedito de Paula",
+      "senha": "15kiu19",
+      "funcao": "Repocitor",
+      "email": "heitorbeneditodepaula__heitorbeneditodepaula@marketingvale.com.br",
+      "data_contrat": "2019-11-08",
+      "endereco": "Rua Aviador Marques de Pinedo 139",
+      "bairro": "Vila Aviação",
+      "cep": 17018350,
+      "cidade": "Bauru",
+      "estado": "SP",
+      "telefone": 1425035483,
+      "celular": 14988549720,
+      "sexo": "Masculino",
+      "data_nasc": "2002-06-24",
+      "cpf": 92433999855,
+      "rg": 418808144,
+      "cart_trab": 63190884680,
+      "contratado_por": 1
+    },
+    {
+      "id": 2,
+      "nome": "César Tiago Calebe Rodrigues",
+      "senha": "KFdMEIc4YH",
+      "funcao": "Caixa",
+      "email": "cesartiagocaleberodrigues__cesartiagocaleberodrigues@davimil.com.br",
+      "data_contrat": "2019-11-08",
+      "endereco": "Avenida Jurandyr Bueno 753",
+      "bairro": "Parque União",
+      "cep": 17063240,
+      "cidade": "Bauru",
+      "estado": "SP",
+      "telefone": 1425378375,
+      "celular": 14986012591,
+      "sexo": "Masculino",
+      "data_nasc": "2002-05-18",
+      "cpf": 9628267825,
+      "rg": 109007712,
+      "cart_trab": 59282569510,
+      "contratado_por": 1
+    },
+    {
+      "id": 3,
+      "nome": "Bruno Kaique Tiago Brito",
+      "senha": "u3NknNt9Q9",
+      "funcao": "Vendedor",
+      "email": "brunokaiquetiagobrito__brunokaiquetiagobrito@onvale.com",
+      "data_contrat": "2019-11-08",
+      "endereco": "Rua Flordalisa Meira Monte 837",
+      "bairro": "Núcleo Habitacional Vereador Edson Francisco da Silva",
+      "cep": 17065340,
+      "cidade": "Bauru",
+      "estado": "SP",
+      "telefone": 1426033427,
+      "celular": 14999163288,
+      "sexo": "Masculino",
+      "data_nasc": "2002-12-17",
+      "cpf": 87913026847,
+      "rg": 361927435,
+      "cart_trab": 64272595906,
+      "contratado_por": 1
+    }
+  ],
+  "administrador":[
+    {
+      "id": 1,
+      "nome": "Fernanda Barbie",
+      "senha": "upoiu9Q9",
+      "funcao": "Dono",
+      "email": "ferbarbie-santos@mundopet.com",
+      "endereco": "Rua João Simonetti 221",
+      "bairro": "Parque União",
+      "cep": 17065340,
+      "cidade": "Bauru",
+      "estado": "SP",
+      "telefone": 1435220260,
+      "celular": 14991499081,
+      "sexo": "Masculino",
+      "data_nasc": "1996-03-06",
+      "cpf": 17377528834,
+      "rg": 131473852,
+      "contratado_por": 1
+    }
+  ],
+  "cartao":[
+    {
+      "id": 1,
+      "selo": "MaterCard",
+      "data_venc": "2022-03-30",
+      "numero": 5553106655323702,
+      "cod_seguranca": 538
+    },
+    {
+      "id": 2,
+      "selo": "MaterCard",
+      "data_venc": "2023-03-20",
+      "numero": 5261866577384875,
+      "cod_seguranca": 752
+    },
+    {
+      "id": 3,
+      "selo": "DinersClub",
+      "data_venc": "2021-11-30",
+      "numero": 30317306913536,
+      "cod_seguranca": 559
+    }
+  ],
+  "produto":[
+    {
+      "id": 1,
+      "nome": "Colheira P/Cães",
+      "descricao": "As coleiras possuem regulagem para o melhor conforto do seu pet /n o material utilizado é de nylon de 15mm de alta resistencia /n cor plateada",
+      "departamento": "Acessorios Cães",
+      "valor": 6.99,
+      "ean": 2000021262157,
+      "qtd_estoque": 8,
+      "id_imagens_produto": "1,5,8",
+      "id_fornecedor": 1
+    },
+    {
+      "id": 2,
+      "nome": "Chemital Plus para Cães com 4 comp",
+      "descricao": "O Chemital Plus para Cães com 4 comprimidos da Chemitec é um anti-helmíntico de amplo espectro para cães e combate com eficácia formas adultas e larvárias de cestóides, ancilostomídeos, ascarídeos e tricurídeos que infestam os cães. /n Além de excelente atuação, uma margem de segurança ampla que permite sua administração mesmo para fêmeas prenhas em qualquer época da gestação. /n Chemital Plus combate a Ancylostoma brasiliense, Ancylostoma caninum, Dipylidium caninum, Echinococcus granulosus, Echinococcus multilocularis, Joyeuxiella pasqualei, Mesocestodes sp, Taenia hydatigena, Taenia multiceps, Taenia pisiformis, Taenia ovis, Taenia taeniaeformis, Toxocara canis, Toxascaris leonina, Trichuris vulpi, Uncinaria stenocephala",
+      "departamento": "Vermifugo",
+      "valor": 15.50,
+      "ean": 7898096853012,
+      "qtd_estoque": 5,
+      "id_fornecedor": 2
+    },
+    {
+      "id": 3,
+      "nome": "Dog Chow Cães adultos raças pequenas 3 Kg",
+      "descricao": "A Ração Dog Chow Raças Pequenas Carne e Arroz a qualidade de vida do seu cão está relacionada à qualidade da sua digestão. /n Contém Ômega 3 e 6 para pele saudável e pelos brilhantes, prebiótico e fibras naturais que auxiliam em uma digestão saudável para seu cão adulto. Digestão Superior ajuda em fezes firmes com odor reduzido. /n Composição: /n Milho integral moído*, quirera de arroz, farinha de carne e ossos de bovinos, farinha de subprodutos de frango, farelo de soja*, farelo de glúten de milho*, gordura animal estabilizada, farinha de peixe, fosfato bicálcico, cloreto de potássio, cloreto de sódio (sal comum), carbonato de cálcio, parede celular de levedura (mananoligossacarídeos), zeolita (0,5%), hidrolisado de fígado de ave e suíno, L-lisina, DL-metionina, vitaminas (A, D3, E, B12, mononitrato de tiamina, suplemento de riboflavina, cloridrato de piridoxina, niacina, pantotenato de cálcio, ácido fólico, cloreto de colina), minerais (sulfato de zinco, proteinato de zinco, sulfato ferroso, sulfato de manganês, proteinato de manganês, sulfato de cobre, proteinato de cobre, iodato de cálcio, selenito de sódio), antioxidante BHT.",
+      "departamento": "Ração de Cães",
+      "valor": 49.90,
+      "ean": 7891000033012,
+      "qtd_estoque": 10,
+      "id_fornecedor": 3
+    }
+  ],
+  "itens_compra":[],
+  "compra":[],
+  "venda":[],
+  "itens_recebimento":[],
+  "recebimento":[],
+  "estoque":[]
 }
